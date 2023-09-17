@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conner Hufnagel - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f2cfa514e9.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+</head>
+<body>
+<div id="header">
+    <div class="container" id="header-container">
+        <nav>
+            <img src="images/logo.png" class="logo" alt="personal logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="images/myResume.pdf" target="_blank">Resume</a></li>
+                <i class="fas fa-times" onclick="CloseMenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="OpenMenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p></p>
+            <h1>Hi, I'm <span>Conner</span><br>I'm a Software Developer.</h1>
+        </div>
+    </div>
+</div>
+<!-- -------about------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <!-- <img src="images/avatar.png" class="about-img" alt="image for about section"> -->
+                <img id="aboutmeimg" src="images/Github_image.png">
+                <div class="layer">
+                    <h3>Travlr Website</h3>
+                    <p>A full-stack Travel Agency web application built using Node.js, Express, Angular, and MongoDB.</p>
+                    <a href="https://github.com/conner-huf/Travlr" target="_blank"><i class="fa-solid fa-link" style="color: #fffc38;"></i></a>
+                </div>
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    Hi there! My name's Conner. I previously worked in the non-profit health sector and decided I wanted a new challenge, and began a new career as a software engineer. I returned to school in 2022 and recently graduated from Southern New Hampshire University with my Bachelor's in Computer Science. I have a passion for computers and for learning and I'm incredibly excited to have the opportunity to keep growing in this new field! <br><br>
+                    Outside of programming, I enjoy playing video games, making digital art and animations, and trying out new restaurants.
+                </p>
+            
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="OpenTab('education')">Education</p>
+                    <p class="tab-links" onclick="OpenTab('skills')">Skills</p>
+                    <p class="tab-links" onclick="OpenTab('experience')">Experience</p>
+                </div>
+                <div class="tab-contents" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br>C++, C#, Java, Python, HTML, CSS, Javascript, Typescript</li>
+                        <li><span>Technologies</span><br>React, Angular, Express, MongoDB, Unity, Unreal, Anroid Studio, Docker</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2019-2022 >> Health Advocate</span><br>Worked in Early Childhood Development non-profit maintaining federal health compliance requirements. Collaborated with health partners in the local area to provide health services for impoverished families.</li>
+                        <li><span>2016-2021 >> Mortarman - Sergeant</span><br>Served in the National Guard as a Mortar platoon's Fire Direction and Control chief. Operated a mortar fire team in training scenarios.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents active-tab" id="education">
+                    <ul>
+                        <li><span>2022 - 2023 >> B.S Computer Science</span><br>Southern New Hampshire University - Summa Cum Laude</li>
+                        <li><span>2023 >> Front-End Developer Certification</span><br>Certification provided through Meta</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- -------projects------- -->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">Featured Projects</h1>
+        <div class="project-list">
+            <div class="project">
+                <img src="images/project-1.png">
+                <div class="layer">
+                    <h3>Travlr Website</h3>
+                    <p>A full-stack Travel Agency web application built using Node.js, Express, Angular, and MongoDB.</p>
+                    <a href="https://github.com/conner-huf/Travlr" target="_blank"><i class="fa-solid fa-link" style="color: #fffc38;"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-4.png">
+                <div class="layer">
+                    <h3>Animal Shelter Dashboard</h3>
+                    <p>A dashboard for an animal shelter database using MongoDB. Uses filtering, geolocator, and data visualization in Jupyter Notebook</p>
+                    <a href="https://github.com/conner-huf/AnimalDBDashboard" target="_blank"><i class="fa-solid fa-link" style="color: #fffc38;"></i></a>
+                </div>
+            </div>
+            <div class="project">
+                <img src="images/project-3.png">
+                <div class="layer">
+                    <h3>PyGame Platformer</h3>
+                    <p>A platformer game with 3 levels and a level editor built using Pygame.</p>
+                    <a href="https://github.com/conner-huf/PygamePlatformer" target="_blank"><i class="fa-solid fa-link" style="color: #fffc38;"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="https://github.com/conner-huf" class="btn" target="_blank">See More</a>
+    </div>
+</div>
+<!-- -------contact------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>conner.huf@gmail.com</p>
+                <div class="social-icons">
+                    <a href="https://github.com/conner-huf" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/conner-hufnagel-070243287/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/myResume.pdf" target="_blank" class="btn btn2">Download my Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Thanks for visiting my portfolio!<br>- Conner</p>
+    </div>
+</div>
+
+<script>
+
+    var tabLinks = document.getElementsByClassName("tab-links")
+    var tabContents = document.getElementsByClassName("tab-contents")
+    var sideMenu = document.getElementById("sidemenu")
+
+    function OpenTab(tabName) {
+        for (tabLink of tabLinks) {
+            tabLink.classList.remove("active-link");
+        }
+        for (tabContent of tabContents) {
+            tabContent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabName).classList.add("active-tab");
+    }
+
+    function OpenMenu() {
+        sideMenu.style.right = "0";
+    }
+    function CloseMenu() {
+        sideMenu.style.right = "-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwLye2Rwh9oEn8h8pMNZvPiC93bAtmoXZjeod6LfH4Y-ui_X75YMQBZxqxRvM0SDg3FkQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => {
+            msg.style.color = "#ca3636";
+            msg.innerHTML = "There was an error submitting the form."
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+            msg.style.color = "#ca3636";
+        })
+    })
+  </script>
+
+</body>
+</html>
