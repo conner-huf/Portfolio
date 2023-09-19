@@ -93,6 +93,13 @@ nav ul li a:hover::after {
     color: var(--gray);
 }
 
+#aboutmeimg {
+    width: 100%;
+    height: 50vh;
+    border-radius: 10px;
+    display: block;
+}
+
 .row {
     display: flex;
     justify-content: space-between;
@@ -187,6 +194,7 @@ nav ul li a:hover::after {
 
 .project img {
     width: 100%;
+    height: 60vh;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
