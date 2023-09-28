@@ -4,3 +4,7 @@ Hi there! This is the source code for my first portfolio. I'm deploying through 
 
 ## Update:
 I've finally got this to a point where I'm pretty happy with it, and it's deployed. My resume can be downloaded through the link on the portfolio, and contact sends me an update to my google sheet. If you have any critiques or things you feel inclined to tell me I should improve, I invite you to let me know! :)
+
+Portfolio link:
+
+[Conner | Portfolio](https://conner-huf.github.io/Portfolio/)
