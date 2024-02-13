@@ -1,6 +1,6 @@
 # Portfolio
 
-##UPDATE:
+## UPDATE:
 This portfolio is now out-of-date. I've got a new portfolio for you to check out! I'm leaving this up in case anyone wants to see it for whatever reason. Here's the link to the new portfolio: [New Portfolio](https://conner-huf.github.io/portfolio-site/)
 
 Hi there! This is the source code for my first portfolio. I'm deploying through Github pages. I'm currently working on completing a portfolio using React, but wanted to get v1 out and running before investing too much time into it. 
